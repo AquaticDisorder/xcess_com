@@ -15,8 +15,8 @@ projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.5"
 
 ; calender
-projects[calender][subdir] = "contrib"
-projects[calender][version] = "2.4"
+projects[calendar][subdir] = "contrib"
+projects[calendar][version] = "2.4"
 
 ; cck
 projects[cck][subdir] = "contrib"
@@ -75,8 +75,8 @@ projects[image][subdir] = "contrib"
 projects[image][version] = "1.2"
 
 ; image assist
-projects[image_assist][subdir] = "contrib"
-projects[image_assist][version] = "3.x-dev"
+projects[img_assist][subdir] = "contrib"
+projects[img_assist][version] = "3.x-dev"
 
 ; imageapi
 projects[imageapi][subdir] = "contrib"
@@ -173,8 +173,15 @@ projects[votingapi][version] = "2.3"
 ; Themes
 
 projects[acquia_prosper][version] = "1.1"
-projects[fusion][version] = "1.13"
+projects[fusion][version][version] = "1.13"
 
+
+
+; CKEditor
+libraries[ckeditor][download][type]= "get"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
+libraries[ckeditor][directory_name] = "ckeditor"
+libraries[ckeditor][destination] = "libraries"
 
 ; Not in use
 
