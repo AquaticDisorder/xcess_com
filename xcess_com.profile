@@ -21,8 +21,8 @@ function xcess_profile_modules() {
 function xcess_profile_details() {
   return array(
     'name' => 'Xcessorized',
+    'old_short_name' => 'Drupal',
     'description' => 'Select this profile to enable Xcessorized profile.',
-    'old_short_name' => 'atrium_default',
   );
 }
 
