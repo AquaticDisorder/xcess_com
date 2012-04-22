@@ -102,6 +102,10 @@ projects[jquery_ui][version] = "1.5"
 projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "1.1"
 
+; library api
+projects[libraries][subdir] = "contrib"
+projects[libraries][version] = "1.0"
+
 ; lightbox2
 projects[lightbox2][subdir] = "contrib"
 projects[lightbox2][version] = "1.11"
@@ -173,15 +177,16 @@ projects[votingapi][version] = "2.3"
 ; Themes
 
 projects[acquia_prosper][version] = "1.1"
-projects[fusion][version][version] = "1.13"
+projects[fusion][version] = "1.13"
 
 
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.4/ckeditor_3.4.zip"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
+
 
 ; Not in use
 
