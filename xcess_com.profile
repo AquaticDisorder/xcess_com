@@ -21,7 +21,7 @@ function xcess_com_profile_modules() {
 function xcess_com_profile_details() {
   return array(
     'name' => 'Xcessorized',
-    'old_short_name' => 'Drupal',
+    'old_short_name' => 'default',
     'description' => 'Select this profile to enable Xcessorized profile.',
   );
 }
