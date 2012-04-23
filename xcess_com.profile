@@ -6,7 +6,7 @@
  * @return
  *   An array of modules to enable.
  */
-function xcess_profile_modules() {
+function xcess_com_profile_modules() {
   return array('color', 'comment', 'help', 'menu', 'taxonomy', 'dblog');
 }
 
@@ -18,7 +18,7 @@ function xcess_profile_modules() {
  *   and optional 'language' to override the language selection for
  *   language-specific profiles.
  */
-function xcess_profile_details() {
+function xcess_com_profile_details() {
   return array(
     'name' => 'Xcessorized',
     'old_short_name' => 'Drupal',
@@ -35,7 +35,7 @@ function xcess_profile_details() {
  *   while the values will be displayed to the user in the installer
  *   task list.
  */
-function xcess_profile_task_list() {
+function xcess_com_profile_task_list() {
 }
 
 /**
@@ -89,7 +89,7 @@ function xcess_profile_task_list() {
  *   An optional HTML string to display to the user. Only used if you
  *   modify the $task, otherwise discarded.
  */
-function xcess_profile_tasks(&$task, $url) {
+function xcess_com_profile_tasks(&$task, $url) {
 
   // Insert default user-defined node types into the database. For a complete
   // list of available node type attributes, refer to the node type API
