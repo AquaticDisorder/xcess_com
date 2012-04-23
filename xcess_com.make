@@ -46,9 +46,9 @@ projects[email_registration][version] = "1.3"
 projects[fblikebutton][subdir] = "contrib"
 projects[fblikebutton][version] = "2.1"
 
-; fckeditor
-projects[fckeditor][subdir] = "contrib"
-projects[fckeditor][version] = "2.3"
+; ckeditor
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.11"
 
 ; filefield
 projects[filefield][subdir] = "contrib"
@@ -162,6 +162,10 @@ projects[uc_out_of_stock][version] = "1.7"
 projects[uc_wishlist][subdir] = "contrib"
 projects[uc_wishlist][version] = "1.1"
 
+; views
+projects[views][subdir] = "contrib"
+projects[views][version] = "2.16"
+
 ; views_galleriffic
 projects[views_galleriffic][subdir] = "contrib"
 projects[views_galleriffic][version] = "1.4"
@@ -174,11 +178,11 @@ projects[views_showcase][version] = "2.3"
 projects[votingapi][subdir] = "contrib"
 projects[votingapi][version] = "2.3"
 
+
 ; Themes
 
 projects[acquia_prosper][version] = "1.1"
 projects[fusion][version] = "1.13"
-
 
 
 ; CKEditor
@@ -199,3 +203,9 @@ libraries[ckeditor][destination] = "libraries"
 ; faq
 ; captcha
 ; auto_nodetitle
+; comment_notify
+; markdown
+; mollom
+; print
+; webform
+; imagecache_actions
