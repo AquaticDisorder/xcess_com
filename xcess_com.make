@@ -22,6 +22,10 @@ projects[calendar][version] = "2.4"
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
 
+; ctools
+projects[ctools][subdir] = "contrib"
+projects[ctools][version] = "1.8"
+
 ; contemplate
 projects[contemplate][subdir] = "contrib"
 projects[contemplate][version] = "1.2"
