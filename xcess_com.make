@@ -144,7 +144,7 @@ projects[transliteration][version] = "3.0"
 
 ; ubercart
 projects[ubercart][subdir] = "contrib"
-projects[ubercart][version] = "2.7"
+projects[ubercart][version] = "2.9"
 
 ; uc_gift_order
 projects[uc_gift_order][subdir] = "contrib"
