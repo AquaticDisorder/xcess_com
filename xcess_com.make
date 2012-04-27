@@ -1,6 +1,7 @@
 api = 2
 core = 6.x
 
+;;; Contrib modules
 
 ; admin menu
 projects[admin_menu][subdir] = "contrib"
@@ -21,6 +22,10 @@ projects[calendar][version] = "2.4"
 ; cck
 projects[cck][subdir] = "contrib"
 projects[cck][version] = "2.9"
+
+; ckeditor
+projects[ckeditor][subdir] = "contrib"
+projects[ckeditor][version] = "1.11"
 
 ; ctools
 projects[ctools][subdir] = "contrib"
@@ -45,10 +50,6 @@ projects[email_registration][version] = "1.3"
 ; fblikebutton
 projects[fblikebutton][subdir] = "contrib"
 projects[fblikebutton][version] = "2.1"
-
-; ckeditor
-projects[ckeditor][subdir] = "contrib"
-projects[ckeditor][version] = "1.11"
 
 ; filefield
 projects[filefield][subdir] = "contrib"
@@ -100,7 +101,7 @@ projects[jquery_ui][version] = "1.5"
 
 ; jquery_update
 projects[jquery_update][subdir] = "contrib"
-projects[jquery_update][version] = "1.1"
+projects[jquery_update][version] = "2.0-alpha1"
 
 ; library api
 projects[libraries][subdir] = "contrib"
@@ -178,8 +179,7 @@ projects[views_showcase][version] = "2.3"
 projects[votingapi][subdir] = "contrib"
 projects[votingapi][version] = "2.3"
 
-
-; Themes
+;;; Themes
 
 projects[acquia_prosper][version] = "1.1"
 projects[fusion][version] = "1.13"
@@ -197,7 +197,7 @@ libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][destination] = "libraries"
 
 
-; Not in use
+;;; Not in use
 
 ; addthis
 ; userloginbar
