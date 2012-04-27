@@ -184,6 +184,11 @@ projects[votingapi][version] = "2.3"
 projects[acquia_prosper][version] = "1.1"
 projects[fusion][version] = "1.13"
 
+; Libraries
+libraries[jquery_ui][download][type] = "get"
+libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery_ui][directory_name] = "jquery.ui"
+libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
