@@ -104,7 +104,6 @@ projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.0-alpha1"
 
 ; library api
-projects[libraries][destination] = "."
 projects[libraries][version] = "1.0"
 
 ; lightbox2
