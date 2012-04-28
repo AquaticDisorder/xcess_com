@@ -105,6 +105,7 @@ projects[jquery_update][version] = "2.0-alpha1"
 
 ; library api
 projects[libraries][version] = "1.0"
+projects[libraries][destination] = "contrib"
 
 ; lightbox2
 projects[lightbox2][subdir] = "contrib"
@@ -182,29 +183,6 @@ projects[votingapi][version] = "2.3"
 
 projects[acquia_prosper][version] = "1.1"
 projects[fusion][version] = "1.13"
-
-; Libraries
-libraries[jquery.ui][download][type] = "get"
-libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
-libraries[jquery.ui][directory_name] = "jquery.ui"
-libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
-
-libraries[cycle][download][type] = "get"
-libraries[cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
-libraries[cycle][directory_name] = "cycle"
-libraries[cycle][destination] = "libraries"
-
-libraries[easing][download][type] = "get"
-libraries[easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.compatibility.js"
-libraries[easing][directory_name] = "easing"
-libraries[easing][destination] = "libraries"
-
-; CKEditor
-libraries[ckeditor][download][type]= "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][destination] = "libraries"
-
 
 ;;; Not in use
 
