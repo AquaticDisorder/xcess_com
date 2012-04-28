@@ -104,7 +104,7 @@ projects[jquery_update][subdir] = "contrib"
 projects[jquery_update][version] = "2.0-alpha1"
 
 ; library api
-projects[libraries][subdir] = "contrib"
+projects[libraries][destination] = "contrib"
 projects[libraries][version] = "1.0"
 
 ; lightbox2
@@ -185,10 +185,10 @@ projects[acquia_prosper][version] = "1.1"
 projects[fusion][version] = "1.13"
 
 ; Libraries
-libraries[jquery_ui][download][type] = "get"
-libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
-libraries[jquery_ui][directory_name] = "jquery.ui"
-libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
+libraries[jquery.ui][download][type] = "get"
+libraries[jquery.ui][download][url] = "http://jquery-ui.googlecode.com/files/jquery-ui-1.7.3.zip"
+libraries[jquery.ui][directory_name] = "jquery.ui"
+libraries[jquery.ui][destination] = "modules/contrib/jquery_ui"
 
 libraries[cycle][download][type] = "get"
 libraries[cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
