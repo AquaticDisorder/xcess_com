@@ -190,6 +190,16 @@ libraries[jquery_ui][download][url] = "http://jquery-ui.googlecode.com/files/jqu
 libraries[jquery_ui][directory_name] = "jquery.ui"
 libraries[jquery_ui][destination] = "modules/contrib/jquery_ui"
 
+libraries[cycle][download][type] = "get"
+libraries[cycle][download][url] = "http://malsup.github.com/jquery.cycle.all.js"
+libraries[cycle][directory_name] = "cycle"
+libraries[cycle][destination] = "libraries"
+
+libraries[easing][download][type] = "get"
+libraries[easing][download][url] = "http://gsgd.co.uk/sandbox/jquery/easing/jquery.easing.compatibility.js"
+libraries[easing][directory_name] = "easing"
+libraries[easing][destination] = "libraries"
+
 ; CKEditor
 libraries[ckeditor][download][type]= "get"
 libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%203.6.3/ckeditor_3.6.3.zip"
