@@ -31,10 +31,6 @@ projects[ckeditor][version] = "1.11"
 projects[ctools][subdir] = "contrib"
 projects[ctools][version] = "1.8"
 
-; contemplate
-projects[contemplate][subdir] = "contrib"
-projects[contemplate][version] = "1.2"
-
 ; context
 projects[context][subdir] = "contrib"
 projects[context][version] = "3.0"
@@ -207,6 +203,11 @@ projects[xcess_acquia_prosper][download][url] = "http://github.com/AquaticDisord
 projects[xcess_acquia_prosper][download][branch] = "master"
 
 ;;; Not in use
+
+;
+; contemplate
+; projects[contemplate][subdir] = "contrib"
+; projects[contemplate][version] = "1.2"
 
 ; addthis
 ; userloginbar
