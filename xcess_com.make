@@ -127,6 +127,10 @@ projects[simplenews][version] = "1.3"
 projects[site_map][subdir] = "contrib"
 projects[site_map][version] = "2.2"
 
+; skinr
+projects[skinr][subdir] = "contrib"
+projects[skinr][version] = "1.6"
+
 ; tagadelic
 projects[tagadelic][subdir] = "contrib"
 projects[tagadelic][version] = "1.4-rc1"
