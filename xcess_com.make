@@ -35,6 +35,10 @@ projects[ctools][version] = "1.8"
 projects[contemplate][subdir] = "contrib"
 projects[contemplate][version] = "1.2"
 
+; context
+projects[context][subdir] = "contrib"
+projects[context][version] = "3.0"
+
 ; date
 projects[date][subdir] = "contrib"
 projects[date][version] = "2.8"
