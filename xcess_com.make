@@ -157,10 +157,7 @@ projects[uc_gift_order][version] = "1.3"
 
 ; uc_option_image
 projects[uc_option_image][subdir] = "contrib"
-projects[uc_option_image][version] = "1.4"
-;
-; uc_option_image_patch
-projects[uc_option_image][patch][] = "https://github.com/AquaticDisorder/xcess_com/blob/master/patches/uc_option_image-syntax_error-1147946-3.patch"
+projects[uc_option_image][branch] = "6.x-1.x"
 
 ; uc_out_of_stock
 projects[uc_out_of_stock][subdir] = "contrib"
