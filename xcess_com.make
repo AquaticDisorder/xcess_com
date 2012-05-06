@@ -160,7 +160,7 @@ projects[uc_option_image][subdir] = "contrib"
 projects[uc_option_image][version] = "1.4"
 ;
 ; uc_option_image_patch
-projects[uc_option_image][patch][] = "http://AquaticDisorder@github.com/AquaticDisorder/xcess_com.git/patches/uc_option_image-syntax_error-1147946-3.patch"
+projects[uc_option_image][patch][] = "http://github.com/AquaticDisorder/xcess_com.git/patches/uc_option_image-syntax_error-1147946-3.patch"
 
 ; uc_out_of_stock
 projects[uc_out_of_stock][subdir] = "contrib"
