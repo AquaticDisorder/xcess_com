@@ -55,6 +55,10 @@ projects[email_registration][version] = "1.3"
 projects[fblikebutton][subdir] = "contrib"
 projects[fblikebutton][version] = "2.1"
 
+; features
+projects[features][subdir] = "contrib"
+projects[features][version] = "1.2"
+
 ; filefield
 projects[filefield][subdir] = "contrib"
 projects[filefield][version] = "3.10"
