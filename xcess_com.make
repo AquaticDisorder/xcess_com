@@ -123,6 +123,10 @@ projects[lightbox2][version] = "1.11"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+; panels
+projects[panels][subdir] = "contrib"
+projects[panels][version] = "3.10"
+
 ; pathauto
 projects[pathauto][subdir] = "contrib"
 projects[pathauto][version] = "1.6"
