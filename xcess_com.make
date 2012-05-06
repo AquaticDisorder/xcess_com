@@ -158,6 +158,7 @@ projects[uc_gift_order][version] = "1.3"
 ; uc_option_image
 projects[uc_option_image][subdir] = "contrib"
 projects[uc_option_image][version] = "1.4"
+projects[uc_option_image][patch][] = "http://drupal.org/node/1277882/uc_option_image.install.patch"
 
 ; uc_out_of_stock
 projects[uc_out_of_stock][subdir] = "contrib"
