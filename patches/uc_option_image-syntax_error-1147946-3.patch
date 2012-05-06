@@ -1,0 +1,25 @@
+From d5b135aa8989c3c74ca13804f204b4558c421599 Mon Sep 17 00:00:00 2001
+From: AquaticDisorder <AquaticDisorder@gmail.com>
+Date: Sun, 6 May 2012 16:33:39 +0100
+Subject: [PATCH] Fixed: Issue #1147946 syntax error
+
+---
+ uc_option_image.install |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/uc_option_image.install b/uc_option_image.install
+index 7740772..5859b90 100644
+--- a/uc_option_image.install
++++ b/uc_option_image.install
+@@ -11,7 +11,7 @@
+  */
+ function uc_option_image_install() {
+   $default_image_path = drupal_get_path('module', 'uc_option_image') . '/no_image.png';
+-  $default_image_name = 'option_image_0_0_0';
++  $default_image_name = 'option_image_0_0_0',
+   $file_path = db_result(db_query("SELECT fid from {files} WHERE filename = '%s' AND filepath = '%s'", $default_image_name, $default_image_path));
+   // Make sure image doesn't already exist in the files table.
+   if (!$file_path) {
+-- 
+1.7.9.5
+
