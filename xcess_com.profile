@@ -8,18 +8,29 @@
  */
 function xcess_com_profile_modules() {
    $modules = array(
-      // Drupal core
+  // Drupal core
      'color',
      'comment',
      'help',
      'menu',
      'taxonomy',
-      // Custom modules
+  // Custom modules
      'admin_menu',
      'advanced_help',
      'backup_migrate',
      'calendar',
+  // CCK
      'cck',
+     'content_copy',
+     'fieldgroup',
+     'filefield',
+     'imagefield',
+     'link',
+     'nodereference',
+     'number',
+     'optionwidgets',
+     'text',
+  // Other
      'ckeditor',
      'ctools',
      'context',
@@ -28,7 +39,6 @@ function xcess_com_profile_modules() {
      'email_registration',
      'fblikebutton',
      'features',
-     'filefield',
      'fivestar',
      'galleria',
      'hide_submit',
@@ -36,7 +46,6 @@ function xcess_com_profile_modules() {
      'img_assist',
      'imageapi',
      'imagecache',
-     'imagefield',
      'jcarousel',
      'jquery_ui',
      'jquery_update',
@@ -61,6 +70,8 @@ function xcess_com_profile_modules() {
      'views_galleriffic',
      'views_showcase',
      'votingapi',
+
+   );
 }
 
 /**
