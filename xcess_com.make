@@ -189,12 +189,17 @@ projects[votingapi][version] = "2.3"
 projects[acquia_prosper][version] = "1.1"
 projects[fusion][version] = "1.13"
 
+;; Subtheme
+projects[xcess_acquia_prosper][type] = "theme"
+projects[xcess_acquia_prosper][download][type] = "git"
+projects[xcess_acquia_prosper][download][url] = "http://github.com/AquaticDisorder/xcess_acquia_prosper.git"
+projects[xcess_acquia_prosper][download][branch] = "master"
+
 ;;; Not in use
 
 ; addthis
 ; userloginbar
 ; uc_views
-; skinr
 ; invoice
 ; facebook_recommend
 ; faq
