@@ -15,10 +15,10 @@ function xcess_com_profile_modules() {
      'menu',
      'taxonomy',
   // Custom modules
-     'admin_menu',
-     'advanced_help',
-     'backup_migrate',
-     'calendar',
+     'libraries',
+     'jquery_update',
+     'jquery_ui',
+     'token',
   // CCK
      'cck',
      'content_copy',
@@ -30,47 +30,56 @@ function xcess_com_profile_modules() {
      'number',
      'optionwidgets',
      'text',
-  // Other
-     'ckeditor',
-     'ctools',
-     'context',
+  // Date and calender
      'date',
-     'devel',
-     'email_registration',
-     'fblikebutton',
-     'features',
-     'fivestar',
-     'galleria',
-     'hide_submit',
+     'calendar',
+  // Images
+     'imageapi',
      'image',
      'img_assist',
-     'imageapi',
      'imagecache',
-     'jcarousel',
-     'jquery_ui',
-     'jquery_update',
-     'libraries',
      'lightbox2',
-     'link',
-     'panels',
+     'galleria',
+     'taxonomy_image',
+     'jcarousel',
+  // Other
+     'hide_submit',
      'pathauto',
      'simplenews',
      'site_map',
-     'skinr',
      'tagadelic',
-     'taxonomy_image',
-     'token',
      'transliteration',
+  // Ubercart
      'ubercart',
      'uc_gift_order',
      'uc_option_image',
      'uc_out_of_stock',
      'uc_wishlist',
+  // User
+     'ckeditor',
+     'email_registration',
+     'fblikebutton',
+  // Views, ctools, panels
+     'ctools',
+     'panels',
      'views',
      'views_galleriffic',
      'views_showcase',
+  // Voting
      'votingapi',
-
+     'fivestar',
+  // Developer modules
+     'admin_menu',
+     'advanced_help',
+     'backup_migrate',
+     'context',
+     'devel',
+     'features',
+     'skinr',
+  // Enable some ui's
+     'imagecache_ui',
+     'views_ui',
+     'context_ui',
    );
 }
 
