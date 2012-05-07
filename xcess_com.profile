@@ -20,7 +20,7 @@ function xcess_com_profile_modules() {
      'jquery_ui',
      'token',
   // CCK
-     'cck',
+     'content',
      'content_copy',
      'fieldgroup',
      'filefield',
@@ -49,12 +49,40 @@ function xcess_com_profile_modules() {
      'site_map',
      'tagadelic',
      'transliteration',
-  // Ubercart
-     'ubercart',
+  // Ubercart core
+     'uc_cart',
+     'ca',
+     'uc_order',
+     'uc_product',
+     'uc_store',
+  // Ubercart core optional
+     'uc_attribute',
+     'uc_catalog',
+     'uc_payment',
+     'uc_reports',
+     'uc_roles',
+     'uc_shipping',
+     'uc_quote',
+     'uc_tax_report',
+     'uc_taxes',
+  // Ubercart extra
+     'uc_cart_links',
+     'uc_googleanalytics',
+     'uc_product_kit',
+     'uc_stock',
+  // Ubercart contrib
      'uc_gift_order',
      'uc_option_image',
      'uc_out_of_stock',
      'uc_wishlist',
+  // Ubercart fulfillment
+     'uc_flatrate',
+  // Ubercart payment
+     'uc_credit',
+     'uc_google_checkout',
+     'uc_payment_pack',
+     'uc_paypal',
+     'uc_',
   // User
      'ckeditor',
      'email_registration',
@@ -75,6 +103,7 @@ function xcess_com_profile_modules() {
      'context',
      'devel',
      'features',
+     'googleanalytics',
      'skinr',
   // Enable some ui's
      'imagecache_ui',
