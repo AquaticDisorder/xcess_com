@@ -165,7 +165,7 @@ projects[uc_gift_order][version] = "1.3"
 
 ; uc_option_image
 projects[uc_option_image][subdir] = "contrib"
-projects[uc_option_image][branch] = "6.x-1.x"
+projects[uc_option_image][branch] = "1.x"
 
 ; uc_out_of_stock
 projects[uc_out_of_stock][subdir] = "contrib"
