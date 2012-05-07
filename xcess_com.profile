@@ -81,6 +81,8 @@ function xcess_com_profile_modules() {
      'views_ui',
      'context_ui',
    );
+
+  return $modules;
 }
 
 /**
