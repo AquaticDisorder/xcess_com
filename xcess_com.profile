@@ -82,7 +82,8 @@ function xcess_com_profile_modules() {
      'uc_google_checkout',
      'uc_payment_pack',
      'uc_paypal',
-     'uc_',
+     'uc_payment',
+     'test_gateway',
   // User
      'ckeditor',
      'email_registration',
