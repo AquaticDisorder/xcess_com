@@ -164,8 +164,11 @@ projects[uc_gift_order][subdir] = "contrib"
 projects[uc_gift_order][version] = "1.3"
 
 ; uc_option_image
-projects[uc_option_image][subdir] = "contrib"
-projects[uc_option_image][branch] = "1.x"
+projects[uc_option_image][type] = "module"
+projects[uc_option_image][download][type] = "git"
+projects[uc_option_image][download][url] = "http://git.drupal.org/project/uc_option_image.git"
+projects[uc_option_image][download][branch] = "6.x-1.x"
+projects[uc_option_image][destination] = "modules/contrib"
 
 ; uc_out_of_stock
 projects[uc_out_of_stock][subdir] = "contrib"
