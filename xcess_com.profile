@@ -43,8 +43,16 @@ function xcess_com_profile_modules() {
      'optionwidgets',
      'text',
   // Date and calender
+     'date_api',
      'date',
+     'date_locale',
+     'date_popup',
+     'date_repeat',
+     'date_timezone',
+     'date_tools',
      'calendar',
+     'calendar_ical',
+     'calendar_multiday',
   // Images
      'imageapi',
      'image',
