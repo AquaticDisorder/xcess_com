@@ -11,14 +11,26 @@ function xcess_com_profile_modules() {
   // Drupal core
      'color',
      'comment',
+     'contact',
      'help',
+     'locale',
      'menu',
+     'openid',
+     'path',
+     'profile',
+     'search',
+     'statistics',
      'taxonomy',
+     'trigger',
+     'update',
+     'upload',
   // Custom modules
      'libraries',
      'jquery_update',
      'jquery_ui',
      'token',
+     'pathauto',
+
   // CCK
      'content',
      'content_copy',
