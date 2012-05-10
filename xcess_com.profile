@@ -25,6 +25,7 @@ function xcess_com_profile_modules() {
      'update',
      'upload',
   // Custom modules
+     'install_profile_api',
      'libraries',
      'jquery_update',
      'jquery_ui',

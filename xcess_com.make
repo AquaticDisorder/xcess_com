@@ -95,6 +95,9 @@ projects[imagecache][version] = "2.0-beta12"
 projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.10"
 
+projects[install_profile_api][subdir] = "contrib"
+projects[install_profile_api][version] = "3.10"
+
 ; jcarousel
 projects[jcarousel][subdir] = "contrib"
 projects[jcarousel][version] = "1.1"
