@@ -77,6 +77,7 @@ function xcess_com_profile_modules() {
      'calendar_multiday',
   // Images
      'imageapi',
+     'imageapi_gd',
      'image',
      'img_assist',
      'imagecache',
