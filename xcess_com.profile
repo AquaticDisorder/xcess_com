@@ -51,6 +51,7 @@ function xcess_com_profile_modules() {
      'jquery_update',
      'jquery_ui',
      'token',
+     'token_actions',
      'pathauto',
 
   // CCK
