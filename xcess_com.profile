@@ -90,7 +90,7 @@ function xcess_com_profile_modules() {
      'hide_submit',
      'pathauto',
      'simplenews',
-     'simplenews_actions',
+     'simplenews_action',
      'site_map',
      'tagadelic',
      'transliteration',
