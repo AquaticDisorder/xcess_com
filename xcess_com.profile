@@ -188,6 +188,10 @@ function xcess_com_profile_details() {
  *   task list.
  */
 function xcess_com_profile_task_list() {
+  global $conf;
+  $conf['site_name'] = 'Xcessorized.com';
+  
+  return $tasks;
 }
 
 /**
@@ -285,8 +289,38 @@ function xcess_com_profile_tasks(&$task, $url) {
   $theme_settings['toggle_node_info_page'] = FALSE;
   variable_set('theme_settings', $theme_settings);
 
+  // Set homepage
+  variable_set('site_frontpage', 'node/1');
+
+  // Set site_footer value.
+  variable_set('site_footer', st('&copy; Copyright 2012 Xcessorized.com, All rights reserved.'));
+
   // Update the menu router information.
   menu_rebuild();
+}
+
+/**
+ * Configure theme
+ */
+function xcess_config_theme() {
+  // Disable garland
+  db_query("UPDATE {system} SET status = 0 WHERE type = 'theme' and name = '%s'", 'garland');
+  
+  // Enable Rubik
+  db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME_ADMIN);
+  
+  // Enable Cube theme
+  db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME);
+  
+  // Set Rubik theme as the default
+  variable_set('admin_theme', xcess_THEME_ADMIN);
+  
+  // Set Cube theme as the default
+  variable_set('theme_default', xcess_THEME);
+
+  // Refresh registry
+  list_themes(TRUE);
+  drupal_rebuild_theme_registry();
 }
 
 /**
