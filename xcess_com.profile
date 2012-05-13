@@ -145,6 +145,7 @@ function xcess_com_profile_modules() {
      'advanced_help',
      'backup_migrate',
      'context',
+     'context_layouts',
      'devel',
      'features',
      'googleanalytics',
