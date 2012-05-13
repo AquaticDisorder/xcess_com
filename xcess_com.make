@@ -95,6 +95,7 @@ projects[imagecache][version] = "2.0-beta12"
 projects[imagefield][subdir] = "contrib"
 projects[imagefield][version] = "3.10"
 
+; install profile api
 projects[install_profile_api][subdir] = "contrib"
 projects[install_profile_api][version] = "3.10"
 
@@ -171,7 +172,7 @@ projects[uc_option_image][type] = "module"
 projects[uc_option_image][download][type] = "git"
 projects[uc_option_image][download][url] = "http://git.drupal.org/project/uc_option_image.git"
 projects[uc_option_image][download][branch] = "6.x-1.x"
-projects[uc_option_image][destination] = "modules/contrib"
+projects[uc_option_image][subdir] = "contrib"
 
 ; uc_out_of_stock
 projects[uc_out_of_stock][subdir] = "contrib"

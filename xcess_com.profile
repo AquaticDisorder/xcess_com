@@ -1,4 +1,25 @@
 <?php
+// $Id: xcess.profile
+
+
+// Define the default WYSIWYG editor
+define('xcess_EDITOR', 'ckeditor');
+
+// Define the allowed filtered html tags
+define('xcess_FILTERED_HTML', '<a> <img> <br> <em> <p> <strong> <cite> <sub> <sup> <span> <blockquote> <code> <ul> <ol> <li> <dl> <dt> <dd> <pre> <address> <h2> <h3> <h4> <h5> <h6>');
+
+// Define the "manager" role name
+define('xcess_MANAGER_ROLE', 'manager');
+
+// Define the default theme
+define('xcess_THEME', 'xcess_acquia_prosper');
+
+// Define admin theme
+define('xcess_THEME_ADMIN', 'rubik');
+
+
+// Define the default frontpage
+define('xcess_FRONTPAGE', 'node/1');
 
 /**
  * Return an array of the modules to be enabled when this profile is installed.
