@@ -97,7 +97,7 @@ projects[imagefield][version] = "3.10"
 
 ; install profile api
 projects[install_profile_api][subdir] = "contrib"
-projects[install_profile_api][version] = "3.10"
+projects[install_profile_api][version] = "2.2"
 
 ; jcarousel
 projects[jcarousel][subdir] = "contrib"
