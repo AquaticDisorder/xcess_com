@@ -142,6 +142,7 @@ function xcess_com_profile_modules() {
   // Voting
      'votingapi',
      'fivestar',
+     'fivestar_comment',
   // Developer modules
      'admin_menu',
      'advanced_help',
