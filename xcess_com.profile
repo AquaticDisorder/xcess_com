@@ -20,6 +20,9 @@ define('xcess_THEME_BASE_1', 'acquia_prosper');
 // Define the default theme
 define('xcess_THEME', 'xcess_acquia_prosper');
 
+// Define base admin theme
+define('xcess_THEME_ADMIN_BASE', 'tao');
+
 // Define admin theme
 define('xcess_THEME_ADMIN', 'rubik');
 
@@ -310,6 +313,9 @@ function xcess_com_profile_tasks(&$task, $url) {
 function xcess_config_theme() {
   // Disable garland
   db_query("UPDATE {system} SET status = 0 WHERE type = 'theme' and name = '%s'", 'garland');
+
+  // Enable Tao
+  db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME_ADMIN_BASE);
   
   // Enable Rubik
   db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME_ADMIN);

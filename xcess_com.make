@@ -200,6 +200,9 @@ projects[votingapi][version] = "2.3"
 
 ;;; Themes
 
+;; Admin base theme
+projects[tao][version] = "3.3"
+
 ;; Admin theme
 projects[rubik][version] = "3.0-beta3"
 
