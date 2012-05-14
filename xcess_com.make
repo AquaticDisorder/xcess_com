@@ -200,8 +200,12 @@ projects[votingapi][version] = "2.3"
 
 ;;; Themes
 
-projects[acquia_prosper][version] = "1.1"
+;; Admin theme
+projects[rubik][version] = "3.0-beta3"
+
+;; Base themes
 projects[fusion][version] = "1.13"
+projects[acquia_prosper][version] = "1.1"
 
 ;; Subtheme
 projects[xcess_acquia_prosper][type] = "theme"
@@ -210,12 +214,10 @@ projects[xcess_acquia_prosper][download][url] = "http://github.com/AquaticDisord
 projects[xcess_acquia_prosper][download][branch] = "master"
 
 ;;; Not in use
-
 ;
 ; contemplate
 ; projects[contemplate][subdir] = "contrib"
 ; projects[contemplate][version] = "1.2"
-
 ; addthis
 ; userloginbar
 ; uc_views
