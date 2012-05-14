@@ -11,12 +11,17 @@ define('xcess_FILTERED_HTML', '<a> <img> <br> <em> <p> <strong> <cite> <sub> <su
 // Define the "manager" role name
 define('xcess_MANAGER_ROLE', 'manager');
 
+// Define fusion base theme
+define('xcess_THEME_BASE_0', 'fusion');
+
+// Define acquia_prosper base theme
+define('xcess_THEME_BASE_1', 'acquia_prosper');
+
 // Define the default theme
 define('xcess_THEME', 'xcess_acquia_prosper');
 
 // Define admin theme
 define('xcess_THEME_ADMIN', 'rubik');
-
 
 // Define the default frontpage
 define('xcess_FRONTPAGE', 'node/1');
@@ -308,14 +313,20 @@ function xcess_config_theme() {
   
   // Enable Rubik
   db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME_ADMIN);
+
+  // Enable Fusion
+  db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME_BASE_0);
+
+  // Enable Acquia_prosper
+  db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME_BASE_1);
   
-  // Enable Cube theme
+  // Enable Xcess_acquia_prosper theme
   db_query("UPDATE {system} SET status = 1 WHERE type = 'theme' and name = '%s'", xcess_THEME);
   
   // Set Rubik theme as the default
   variable_set('admin_theme', xcess_THEME_ADMIN);
   
-  // Set Cube theme as the default
+  // Set xcess_acquia_prosper theme as the default
   variable_set('theme_default', xcess_THEME);
 
   // Refresh registry
