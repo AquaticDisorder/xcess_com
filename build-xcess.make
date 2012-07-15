@@ -1,10 +1,13 @@
 api = 2
 core = 6.x
 
-; Use Pressflow instead of Drupal core:
-projects[pressflow][type] = "core"
-projects[pressflow][download][type] = "get"
-projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
+;; Use Pressflow instead of Drupal core:
+; projects[pressflow][type] = "core"
+; projects[pressflow][download][type] = "get"
+; projects[pressflow][download][url] = "http://files.pressflow.org/pressflow-6-current.tar.gz"
+
+projects[drupal][type] = "core"
+projects[drupal][version] = "6.26"
 
 projects[xcess_com][type] = "profile"
 projects[xcess_com][download][type] = "git"
