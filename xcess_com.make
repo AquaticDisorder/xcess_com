@@ -13,7 +13,7 @@ projects[advanced_help][version] = "1.2"
 
 ; backup_migrate
 projects[backup_migrate][subdir] = "contrib"
-projects[backup_migrate][version] = "2.5"
+projects[backup_migrate][version] = "2.6"
 
 ; calender
 projects[calendar][subdir] = "contrib"
@@ -37,11 +37,11 @@ projects[context][version] = "3.0"
 
 ; date
 projects[date][subdir] = "contrib"
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 
 ; devel
 projects[devel][subdir] = "contrib"
-projects[devel][version] = "1.18"
+projects[devel][version] = "1.27"
 
 ; email_registration
 projects[email_registration][subdir] = "contrib"
@@ -89,7 +89,7 @@ projects[imageapi][version] = "1.10"
 
 ; imagecache
 projects[imagecache][subdir] = "contrib"
-projects[imagecache][version] = "2.0-beta12"
+projects[imagecache][version] = "2.0-rc1"
 
 ; imagefield
 projects[imagefield][subdir] = "contrib"
@@ -133,7 +133,7 @@ projects[pathauto][version] = "1.6"
 
 ; simplenews
 projects[simplenews][subdir] = "contrib"
-projects[simplenews][version] = "1.3"
+projects[simplenews][version] = "1.4"
 
 ; site_map
 projects[site_map][subdir] = "contrib"
@@ -157,7 +157,7 @@ projects[token][version] = "1.18"
 
 ; transliteration
 projects[transliteration][subdir] = "contrib"
-projects[transliteration][version] = "3.0"
+projects[transliteration][version] = "3.1"
 
 ; ubercart
 projects[ubercart][subdir] = "contrib"
