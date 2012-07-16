@@ -194,6 +194,10 @@ projects[views_galleriffic][version] = "1.4"
 projects[views_showcase][subdir] = "contrib"
 projects[views_showcase][version] = "2.3"
 
+; views_slideshow
+projects[views_slideshow][subdir] = "contrib"
+projects[views_slideshow][version] = "2.4"
+
 ; votingapi
 projects[votingapi][subdir] = "contrib"
 projects[votingapi][version] = "2.3"
