@@ -191,8 +191,13 @@ projects[views_galleriffic][subdir] = "contrib"
 projects[views_galleriffic][version] = "1.4"
 
 ; views_showcase
+
+; Switching to old version until css updated 
+; projects[views_showcase][subdir] = "contrib"
+; projects[views_showcase][version] = "2.3"
+;
 projects[views_showcase][subdir] = "contrib"
-projects[views_showcase][version] = "2.3"
+projects[views_showcase][version] = "1.0-beta2"
 
 ; views_slideshow
 projects[views_slideshow][subdir] = "contrib"
