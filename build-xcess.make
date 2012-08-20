@@ -18,12 +18,12 @@ libraries[jquery.ui][directory_name] = "jquery.ui"
 libraries[jquery.ui][destination] = "libraries"
 
 libraries[cycle][download][type] = "get"
-libraries[cycle][download][url] = "http://github.com/AquaticDisorder/xcess_com/js/cycle/jquery.cycle.min.js"
+libraries[cycle][download][url] = "http://github.com/AquaticDisorder/xcess_com/js/cycle"
 libraries[cycle][directory_name] = "cycle"
 libraries[cycle][destination] = "libraries"
 
 libraries[easing][download][type] = "get"
-libraries[easing][download][url] = "http://github.com/AquaticDisorder/xcess_com/js/easing/jquery.easing.1.3.js"
+libraries[easing][download][url] = "http://github.com/AquaticDisorder/xcess_com/js/easing"
 libraries[easing][directory_name] = "easing"
 libraries[easing][destination] = "libraries"
 
