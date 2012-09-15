@@ -131,9 +131,9 @@ projects[lightbox2][version] = "1.11"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
-; loggintoboggan
-projects[loggintoboggan][subdir] = "contrib"
-projects[loggintoboggan][version] = "1.10"
+; logintoboggan
+projects[logintoboggan][subdir] = "contrib"
+projects[logintoboggan][version] = "1.10"
 
 ; panels
 projects[panels][subdir] = "contrib"
