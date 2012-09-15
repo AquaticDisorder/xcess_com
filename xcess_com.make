@@ -11,9 +11,17 @@ projects[admin_menu][version] = "1.8"
 projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
 
+; advertisement
+projects[advertisement][subdir] = "contrib"
+projects[advertisement][version] = "2.4"
+
 ; backup_migrate
 projects[backup_migrate][subdir] = "contrib"
 projects[backup_migrate][version] = "2.6"
+
+; boxes
+projects[boxes][subdir] = "contrib"
+projects[boxes][version] = "1.1"
 
 ; calender
 projects[calendar][subdir] = "contrib"
@@ -29,7 +37,7 @@ projects[ckeditor][version] = "1.11"
 
 ; ctools
 projects[ctools][subdir] = "contrib"
-projects[ctools][version] = "1.8"
+projects[ctools][version] = "1.9"
 
 ; context
 projects[context][subdir] = "contrib"
@@ -49,7 +57,7 @@ projects[email_registration][version] = "1.3"
 
 ; fblikebutton
 projects[fblikebutton][subdir] = "contrib"
-projects[fblikebutton][version] = "2.1"
+projects[fblikebutton][version] = "2.2"
 
 ; features
 projects[features][subdir] = "contrib"
@@ -123,6 +131,10 @@ projects[lightbox2][version] = "1.11"
 projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
+; loggintoboggan
+projects[link][subdir] = "contrib"
+projects[link][version] = "1.10"
+
 ; panels
 projects[panels][subdir] = "contrib"
 projects[panels][version] = "3.10"
@@ -149,7 +161,7 @@ projects[tagadelic][version] = "1.4-rc1"
 
 ; taxonomy_image
 projects[taxonomy_image][subdir] = "contrib"
-projects[taxonomy_image][version] = "1.6"
+projects[taxonomy_image][version] = "1.7"
 
 ; token
 projects[token][subdir] = "contrib"
@@ -161,7 +173,11 @@ projects[transliteration][version] = "3.1"
 
 ; ubercart
 projects[ubercart][subdir] = "contrib"
-projects[ubercart][version] = "2.9"
+projects[ubercart][version] = "2.10"
+
+; ubercart coupon
+projects[uc_coupon][subdir] = "contrib"
+projects[uc_coupon][version] = "2.10"
 
 ; uc_gift_order
 projects[uc_gift_order][subdir] = "contrib"
