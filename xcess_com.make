@@ -12,8 +12,8 @@ projects[advanced_help][subdir] = "contrib"
 projects[advanced_help][version] = "1.2"
 
 ; advertisement
-projects[advertisement][subdir] = "contrib"
-projects[advertisement][version] = "2.4"
+projects[ad][subdir] = "contrib"
+projects[ad][version] = "2.4"
 
 ; backup_migrate
 projects[backup_migrate][subdir] = "contrib"
@@ -132,8 +132,8 @@ projects[link][subdir] = "contrib"
 projects[link][version] = "2.9"
 
 ; loggintoboggan
-projects[link][subdir] = "contrib"
-projects[link][version] = "1.10"
+projects[loggintoboggan][subdir] = "contrib"
+projects[loggintoboggan][version] = "1.10"
 
 ; panels
 projects[panels][subdir] = "contrib"
@@ -177,7 +177,7 @@ projects[ubercart][version] = "2.10"
 
 ; ubercart coupon
 projects[uc_coupon][subdir] = "contrib"
-projects[uc_coupon][version] = "2.10"
+projects[uc_coupon][version] = "1.7"
 
 ; uc_gift_order
 projects[uc_gift_order][subdir] = "contrib"
