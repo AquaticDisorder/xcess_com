@@ -165,7 +165,7 @@ projects[taxonomy_image][version] = "1.7"
 
 ; token
 projects[token][subdir] = "contrib"
-projects[token][version] = "1.18"
+projects[token][version] = "1.19"
 
 ; transliteration
 projects[transliteration][subdir] = "contrib"
